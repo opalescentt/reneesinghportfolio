@@ -1,11 +1,11 @@
 # Contacts
-<b>Email: </b> reneexsingh@gmail.com
-<b>Phone Number: </b>206-639-0380
+<p><b>Email: </b> reneexsingh@gmail.com</p>
+<p><b>Phone Number: </b>206-639-0380</p>
 
 # Important Links
 
-<b>[Resume](projects/resume){:target="_blank"}</b>
-<b>[LinkedIn](https://www.linkedin.com/in/renee-singh7/){:target="_blank"}</b>
+<p><b>[Resume](projects/resume){:target="_blank"}</b></p>
+<p><b>[LinkedIn](https://www.linkedin.com/in/renee-singh7/){:target="_blank"}</b></p>
 
 # Skills
 
