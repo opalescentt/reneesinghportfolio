@@ -4,7 +4,7 @@
 
 # Important Links
 
-<p><b>[Resume](projects/resume){:target="_blank"}</b></p>
+<p><b>[Resume](projects/resume.pdf){:target="_blank"}</b></p>
 <p><b>[LinkedIn](https://www.linkedin.com/in/renee-singh7/){:target="_blank"}</b></p>
 
 # Skills
