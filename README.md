@@ -1,3 +1,12 @@
+# Contacts
+<b>Email: </b> reneexsingh@gmail.com
+<b>Phone Number: </b>206-639-0380
+
+# Important Links
+
+<b>[Resume](projects/resume){:target="_blank"}</b>
+<b>[LinkedIn](https://www.linkedin.com/in/renee-singh7/){:target="_blank"}</b>
+
 # Skills
 
 <b>Data Processing: </b>Python, SQL, NoSQL, PowerBI, Tableau, R, Web Crawling, Web Scraping  
