@@ -1,25 +1,3 @@
-<style>
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin-top: 20px;
-}
-
-.project-card {
-  background: #ffffff;
-  padding: 24px;
-  border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
-}
-</style>
-
 # Portfolio
 
 ## Featured Projects
@@ -173,4 +151,33 @@ Awards: 12th WINFO Hackathon Top 3 'Best Overall' Finalist
 </div>
 
 </div>
+
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #f9fafb;              /* light gray so it stands out */
+  padding: 28px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;        /* subtle border */
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.project-card h3,
+.project-card h4 {
+  margin-top: 0;
+}
+</style>
+
 
