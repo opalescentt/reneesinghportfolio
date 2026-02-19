@@ -1,160 +1,146 @@
 <style>
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
   margin-top: 20px;
 }
 
 .project-card {
   background: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
-
-.project-card h3 {
-  margin-top: 0;
-}
-
-.project-links a {
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 12px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 </style>
-
-# Contacts
-<p><b>Email: </b> reneexsingh@gmail.com</p>
-<p><b>Phone Number: </b>206-639-0380</p>
-
-# Important Links
-
-<p><b><a href="/projects/resume.pdf" target="_blank">Resume</a></b></p>
-<p><b><a href="https://www.linkedin.com/in/renee-singh7/" target="_blank">LinkedIn</a></b></p>
-
-# Skills
-
-<b>Data Processing: </b>Python, SQL, NoSQL, PowerBI, Tableau, R, Web Crawling, Web Scraping  
-<b>Front-End: </b>JavaScript, HTML, CSS, React, Firebase  
-<b>Tools: </b>ETL, MongoDB, Azure, AWS, REST APIs, Git  
-<b>Libraries: </b>pandas, numpy, scikit-learn, scipy, matplotlib, pyterrier  
-<b>Project Management: </b>Azure DevOps, Agile, Scrum, Kanban
 
 # Portfolio
 
 ## Featured Projects
 
-### Python
+<div class="project-grid">
 
-#### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection 
+<div class="project-card">
 
-Developed and optimized robust deepfake detection models using <b>Support Vector Classifier</b> and <b>Multi-Layer Perceptron</b> and fine-tuning hyperparameters with <b>GridSearch cross-validation</b> to achieve an 82% accuracy rate on test data, demonstrating strong performance in identifying AI-generated content in real-world scenarios. Preprocessed a dataset of <b>2,000 real and AI-generated facial images</b>, applying grayscale conversion and eigenface principal component analysis to extract key visual features, such as texture irregularities, color distortions, and high-frequency noise that serve as indicators of AI-generated content.
+#### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection
 
-<b>Libraries:</b> pandas, numpy, scikit-learn, matplotlib
+Developed and optimized robust deepfake detection models using **Support Vector Classifier** and **Multi-Layer Perceptron**, fine-tuning hyperparameters with **GridSearch cross-validation** to achieve an 82% accuracy rate.
+
+**Libraries:** pandas, numpy, scikit-learn, matplotlib  
 
 [View Report](projects/deepfakes/DeepfakeDetectionFinalReport.pdf){:target="_blank"}  
 [View Code](projects/deepfakes/DeepfakeDetectionCode.html){:target="_blank"}
 
+</div>
+
+<div class="project-card">
+
 #### MobyGames Website Scraping and Collaborative-Filtering Recommendation System
 
-Developed an interactive web application, MobySearch, to enable users to search and explore video game data from MobyGames. Crawled and pre-processed 1026 documents using <b>wget and BeautifulSoup</b>, then indexed the data using <b>python-terrier</b> without stemming or stopword removal. Implementing <b>HiemstraLM</b> for retrieval resulted in a mean average precision of 21%, R-precision of 10%, and reciprocal rank of 23%. Logged user searches provided weekly trending queries and personalized recommendations, enhancing the user experience with advanced search features and a popularity-based recommendation system.
+Crawled and pre-processed 1026 documents using wget and BeautifulSoup and implemented HiemstraLM retrieval with collaborative filtering.
 
-Libraries: pandas, numpy, python-terrier, BeautifulSoup
+Libraries: pandas, numpy, python-terrier, BeautifulSoup  
 
 [View Report](projects/gamerecs/MobyGamesReport.pdf)
 
-### SQL and NoSQL
+</div>
+
+<div class="project-card">
 
 #### Animal Shelter Relational and Physical Database Modeling
 
-Developed a comprehensive <b>relational database system</b> for Furry Friends Shelter, a conceptual no-kill shelter for cats and dogs, to streamline the adoption process, enhance health monitoring, and improve overall animal care. Utilized relational database design principles to create a schema with <b>10 entities</b>. Implemented critical SQL queries for tracking adoptions, managing health records, and optimizing animal care, resulting in over <b>200 health logs, 100+ vaccinations, and 150+ medication administrations</b>.
+Designed a 10-entity relational database system to streamline adoption and health tracking.
 
-[View Report](projects/animalshelter/FurryFriendsReport.pdf){:target="_blank"} 
+[View Report](projects/animalshelter/FurryFriendsReport.pdf){:target="_blank"}
 
-#### County Health Metrics MongoDB Database Design and Optimization (In Progress)
+</div>
 
-Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to <b>implement ETL processes, extracting relational data, transforming it into a non-relational format </b>, and loaded it into <b>MongoDB</b>,streamlining the migration of<b>~250k rows</b> of country health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights, <b>improving query execution runtimes by 30%</b>.
-
-### Software Architecture
+<div class="project-card">
 
 #### System Design for Smart Lock Data Platform
 
-Designed the high-level software architecture for a <b>scalable, event-driven data platform</b> for smart home security devices, leveraging <b>AWS, Azure, and NoSQL databases</b> to define real-time data validation processes and facilitate system communication. Clarified ambiguity in system requirements by defining MVP features, identifying dependencies, and prioritizing features. Developed <b>REST API contracts</b> to ensure seamless data exchange between components, focusing on reliability and low-latency communication. Outlined comprehensive <b>logging, monitoring, and alerting schemas</b> to improve system observability and guide fault-tolerant design.
+Designed a scalable event-driven architecture using AWS, Azure, and NoSQL databases.
 
 [View System Design Document](projects/smartlock/SmartLockSystemDesign.pdf){:target="_blank"}
 
-### R
+</div>
+
+<div class="project-card">
 
 #### Investment Portfolio Analysis
 
-Wrote 10 page analysis of <b>5 Vanguard ETFs from the Wealthfront Classic Portfolio</b>. Utilized <b>R</b> to calculate returns, sample statistics and Value-at-Risk, created and visualized efficient portfolios for different expected return targets to determine optimal investment.
-
-Libraries: tidyverse, zoo, xts, PerformanceAnalytics
+Wrote a 10-page analysis of 5 Vanguard ETFs and constructed efficient portfolios in R.
 
 [View Report](projects/investment/InvestmentFinalReport.pdf){:target="_blank"}
 
-### React
+</div>
+
+<div class="project-card">
 
 #### Misinformation Game Directory (In Progress)
 
-Leading development of a research-based misinformation game directory to promote information and media literacy resources to educators and students. Collected metadata on <b>45 misinformation games</b>, and developed a search and filter system based on target age, number of players, genre, and format.
+Developing a misinformation game directory with search and filtering features.
 
 [View Website](https://opalsugar.github.io/misinfowb/){:target="_blank"}
 
-### Project Management
+</div>
 
-#### Equity-Driven HRIS
+</div>
 
-Led development of the <b>product lifecycle</b> of an Equity-Driven HRIS for a hypothetical multi-national retail firm to actively prevent pay disparities. Focused on technical aspects of the proposed HRIS system, <b>writing KPIs, requirements and backlog for data analysis functionality, data integration and centralized architecture</b>.
-
-[View DevOps](https://dev.azure.com/info380ba1/BA1%20Project/_wiki/wikis/BA1-Project.wiki/37/Executive-Summary){:target="_blank"}
+---
 
 ## Other Projects
 
-### Python
+<div class="project-grid">
 
-#### Predictive Modeling of Spotify Streams based on Auditory Qualities 
+<div class="project-card">
+
+#### Predictive Modeling of Spotify Streams
 
 [View Report](projects/spotify/SpotifyReport.pdf){:target="_blank"}  
 [View Code](projects/spotify/SpotifyCode.pdf){:target="_blank"}
 
-### R
+</div>
+
+<div class="project-card">
 
 #### COVID-19 Health Statistics
 
-Libraries: tidyverse, shiny
-
 [View Shiny App](https://reneesingh.shinyapps.io/201_project/){:target="_blank"}
+
+</div>
+
+<div class="project-card">
 
 #### Anime Statistics
 
 [View Report](projects/animestats/AnimeFinalReport.html){:target="_blank"}
 
-### React
+</div>
+
+<div class="project-card">
 
 #### Flow: Productivity Website
 
 [View Website](https://productivity-d4bde.web.app){:target="_blank"}
 
-### Figma Design
+</div>
+
+<div class="project-card">
 
 #### MyBookClub
 
-Awards: 12th WINFO Hackathon Top 3 'Best Overall' Finalist
+12th WINFO Hackathon Top 3 "Best Overall" Finalist  
 
-[View Prototype](https://www.figma.com/proto/LDN98uWUMUIRdaqkbLvtn6/Winfo-Hackathon?node-id=37-1470&starting-point-node-id=37%3A1470
-){:target="_blank"}
+[View Prototype](https://www.figma.com/proto/LDN98uWUMUIRdaqkbLvtn6/Winfo-Hackathon?node-id=37-1470&starting-point-node-id=37%3A1470){:target="_blank"}
+
+</div>
+
+</div>
 
