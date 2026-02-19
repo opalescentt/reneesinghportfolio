@@ -4,9 +4,9 @@
 
 <div class="project-grid" markdown="1">
 
-<div class="project-card" markdown="1">
-
 ### Python
+
+<div class="project-card" markdown="1">
 
 #### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection 
 
@@ -31,9 +31,9 @@ Libraries: pandas, numpy, python-terrier, BeautifulSoup
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### SQL and NoSQL
+
+<div class="project-card" markdown="1">
 
 #### Animal Shelter Relational and Physical Database Modeling
 
@@ -51,9 +51,9 @@ Designed and implemented a scalable MongoDB health metrics database, optimizing 
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### Software Architecture
+
+<div class="project-card" markdown="1">
 
 #### System Design for Smart Lock Data Platform
 
@@ -63,9 +63,9 @@ Designed the high-level software architecture for a <b>scalable, event-driven da
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### R
+
+<div class="project-card" markdown="1">
 
 #### Investment Portfolio Analysis
 
@@ -77,9 +77,9 @@ Libraries: tidyverse, zoo, xts, PerformanceAnalytics
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### React
+
+<div class="project-card" markdown="1">
 
 #### Misinformation Game Directory (In Progress)
 
@@ -95,11 +95,11 @@ Leading development of a research-based misinformation game directory to promote
 
 ## Other Projects
 
+### Python
+
 <div class="project-grid" markdown="1">
 
 <div class="project-card" markdown="1">
-
-### Python
 
 #### Predictive Modeling of Spotify Streams based on Auditory Qualities 
 
@@ -108,9 +108,9 @@ Leading development of a research-based misinformation game directory to promote
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### R
+
+<div class="project-card" markdown="1">
 
 #### COVID-19 Health Statistics
 
@@ -128,9 +128,9 @@ Libraries: tidyverse, shiny
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### React
+
+<div class="project-card" markdown="1">
 
 #### Flow: Productivity Website
 
@@ -138,9 +138,9 @@ Libraries: tidyverse, shiny
 
 </div>
 
-<div class="project-card" markdown="1">
-
 ### Figma Design
+
+<div class="project-card" markdown="1">
 
 #### MyBookClub
 
