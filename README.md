@@ -2,9 +2,9 @@
 
 ## Featured Projects
 
-<div class="project-grid">
+<div class="project-grid" markdown="1">
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### Python
 
@@ -19,7 +19,7 @@ Developed and optimized robust deepfake detection models using <b>Support Vector
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 #### MobyGames Website Scraping and Collaborative-Filtering Recommendation System
 
@@ -31,7 +31,7 @@ Libraries: pandas, numpy, python-terrier, BeautifulSoup
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### SQL and NoSQL
 
@@ -43,7 +43,7 @@ Developed a comprehensive <b>relational database system</b> for Furry Friends Sh
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 #### County Health Metrics MongoDB Database Design and Optimization (In Progress)
 
@@ -51,7 +51,7 @@ Designed and implemented a scalable MongoDB health metrics database, optimizing 
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### Software Architecture
 
@@ -63,7 +63,7 @@ Designed the high-level software architecture for a <b>scalable, event-driven da
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### R
 
@@ -77,7 +77,7 @@ Libraries: tidyverse, zoo, xts, PerformanceAnalytics
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### React
 
@@ -95,9 +95,9 @@ Leading development of a research-based misinformation game directory to promote
 
 ## Other Projects
 
-<div class="project-grid">
+<div class="project-grid" markdown="1">
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### Python
 
@@ -108,7 +108,7 @@ Leading development of a research-based misinformation game directory to promote
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### R
 
@@ -120,7 +120,7 @@ Libraries: tidyverse, shiny
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 #### Anime Statistics
 
@@ -128,7 +128,7 @@ Libraries: tidyverse, shiny
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### React
 
@@ -138,7 +138,7 @@ Libraries: tidyverse, shiny
 
 </div>
 
-<div class="project-card">
+<div class="project-card" markdown="1">
 
 ### Figma Design
 
