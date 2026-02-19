@@ -1,11 +1,49 @@
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+</style>
+
 # Contacts
 <p><b>Email: </b> reneexsingh@gmail.com</p>
 <p><b>Phone Number: </b>206-639-0380</p>
 
 # Important Links
 
-<p><b>[Resume](projects/resume.pdf){:target="_blank"}</b></p>
-<p><b>[LinkedIn](https://www.linkedin.com/in/renee-singh7/){:target="_blank"}</b></p>
+<p><b><a href="/projects/resume.pdf" target="_blank">Resume</a></b></p>
+<p><b><a href="https://www.linkedin.com/in/renee-singh7/" target="_blank">LinkedIn</a></b></p>
 
 # Skills
 
